@@ -1,0 +1,14 @@
+.edit{
+    width: 100vw;
+}
+@media(max-width : 991.9px) and (min-width : 768px ) {
+    .editImgWidth{
+        width: 50% !important;
+    }
+}
+@media(max-width : 767.9px) {
+    .editImgWidth{
+        width: 50% !important;
+    }
+}
+

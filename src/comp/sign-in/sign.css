@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box !important;
+    overflow-x: hidden I !important;
+}
+.editTextCreate{
+    color: #714da6 !important;
+}
+.editTextCreate:hover{
+    cursor: pointer;
+    color: white !important;
+}
+.editUserWidth{
+    width: 100vw !important;
+}
+.editWidthSignIn{
+    width: 100vw !important;
+}
+@media (max-width : 700.9px) and (min-width :574px) {
+    .editWidthSignIn{
+        width: 100%!important;
+        
+    }
+}
+@media (max-width : 574.9px) and (min-width :375px) {
+    .editWidthSignIn{
+        width: 100% !important;
+    }
+}
+@media (max-width : 575.9px) and (min-width :574px) {
+    .editWidthForm{
+        width: 100% !important;
+    }
+    .editWidthSignIn{
+        width: 192% !important;
+    }
+}

@@ -1,0 +1,253 @@
+.bodyHome{
+    box-sizing: border-box !important;
+}
+.backGroundHome{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F3F2EE !important;
+    width: 100% !important;
+}
+.editImg{
+    background-size: cover;
+}
+/*-----------Button--------------*/
+.cssbuttons-io-button {
+    background: #a370f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  
+/*-----------Button--------------*/
+.underLineShopNow{
+    text-decoration: none;
+    color:#7b52b9;
+}
+.editColorSummerCollections{
+    color: #7b52b9 !important;
+}
+.underLineShopNow:hover{
+cursor: pointer;
+}
+.freeShiping{
+    width:100%;
+    height: 10vh;
+    background-image: url("../../imgs//about-us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.edith1{
+    text-transform:capitalize;
+    color: white;
+    font-size: 1.8em;
+}
+.word{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 50%);
+}
+.displayBtn{
+    border: none !important;
+}
+/********************************/
+@media(max-width : 449px){
+    .backGroundHome{
+        width: 100%;
+    }
+}
+@media(max-width : 700px) and (min-width : 656px ){
+    .backGroundHome{
+        width: 100% !important;
+    }
+}
+@media(max-width : 655.9px) and (min-width : 576px ){
+    .backGroundHome{
+        width: 100% !important;
+    }
+}
+@media(max-width : 575.9px) and (min-width : 448px ){
+    .backGroundHome{
+        width: 100% !important;
+    }
+}
+@media(max-width : 447.9px){
+    .backGroundHome{
+        width: 100% !important; 
+    }
+}
+
+/********************************/
+@media(max-width : 1207px) and (min-width : 1038px ){
+    .editSize{
+        padding-top: 6em !important; 
+    }
+}
+@media(max-width : 1037.9px) and (min-width : 723px ){
+    .editSize{
+        padding-top: 6em !important; 
+        padding-left: 4em !important;
+    }
+}
+@media(max-width : 723.9px) and (min-width : 600px ){
+    .editSize{
+        padding-top: 3em !important; 
+        padding-left: 2em !important;
+    }
+}
+@media(max-width : 577.9px) and (min-width : 478px ) {
+    .editSize{
+        padding-top: 0em !important; 
+        padding-left: 2em !important;
+    }
+}
+@media(max-width : 478.9px) and (min-width : 375px ) {
+    .editSize{
+        padding-top: 0em !important; 
+        padding-left: 0.1em !important;
+    }
+    .editPadding{
+        padding-bottom: 0em !important;
+    }
+}
+/**************************************/
+@media(max-width : 700px){
+    .firstCard{
+        width: 100% !important;
+    }
+    .section2{
+        width: 100% !important;
+    }
+}
+@media(max-width : 700.9px) and (min-width : 657px){
+    .freeShiping{
+        width: 100% !important;
+    }
+}
+@media(max-width : 657.9px) and (min-width : 576px){
+    .freeShiping{
+        width: 100% !important;
+    }
+}
+@media(max-width : 575.9px) and (min-width : 375px){
+    .freeShiping{
+        width: 100% !important;
+    }
+}
+@media(max-width : 409.9px) and (min-width : 373px){
+    .edith1{
+        font-size: 1.6em;
+    }
+}
+@media(max-width : 700.9px) and (min-width : 373px){
+    .editCartBody{
+        width: 22rem !important;
+    }
+}
+@media(max-width : 700.9px) and (min-width : 373px){
+    .editCardWidth{
+        width: 100% !important;
+    }
+
+}
+@media(max-width : 472.9px) and (min-width : 373px){
+    .editFooter{
+        width: 100%;
+    }
+}
+@media(max-width : 700.9px) and (min-width : 473px){
+    .editFooter{
+        width: 100%;
+    }
+}
+
+@media(max-width : 673.9px) and (min-width : 581px){
+    .editImg{
+        width: 49% !important;
+    }
+}
+@media(max-width : 580.9px){
+    .editImg{
+        width: 44% !important;
+    }
+}
+.firstCard{
+    width: 100% !important;
+}
+@media(max-width : 678.9px) and (min-width : 576px){
+    .edith1{
+        font-size: 1.5em !important;
+    }
+}
+@media(max-width : 575.9px) and (min-width : 453px){
+    .edith1{
+        font-size: 1.2em !important;
+    }
+}
+@media(max-width : 452.9px) and (min-width : 377px){
+    .edith1{
+        font-size: 1em !important;
+    }
+}
+@media(max-width : 376px){
+    .edith1{
+        font-size: 0.9em !important;
+    }
+}
+@media(min-width : 992px){
+    .editShopingMargin{
+        margin-left: 6em !important;
+    }
+}
+@media(max-width : 991.9px) and (min-width : 769px){
+    .editShopingMargin{
+        margin-left: 7em !important;
+    }
+}
+

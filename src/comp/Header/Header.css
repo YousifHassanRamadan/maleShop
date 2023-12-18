@@ -1,0 +1,30 @@
+.editNav{
+    width: 65% !important;
+    justify-content: space-between !important;
+}
+.editFontSz{
+    font-size: 1.3em !important;
+}
+.editBorder{
+    border-color: #714da6 !important ;
+}
+
+.editColorBackGround{
+    background-color: #714da6 !important;
+}
+#editColorBackGround{
+    background-color: #714da6 !important;
+}
+.navHeader{
+    width: 100% I !important;
+}
+
+@media(max-width : 991.2px) and (min-width : 375px){
+    .editNavColl{
+        margin: 0em !important;
+    }
+    .contian2,.contain{
+        justify-content: space-between !important;
+    }
+}
+

@@ -1,0 +1,9 @@
+.editColorProfileText{
+    color: #7b52b9 !important;
+}
+/*575*/
+@media(max-width : 575px) and (min-width : 375px){
+    .editPaddingProfile{
+        padding-left: 3em;
+    }
+}

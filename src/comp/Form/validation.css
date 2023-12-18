@@ -1,0 +1,16 @@
+
+@media(max-width : 991.9px){
+    .editFlexWrap{
+        flex-wrap: wrap !important;
+    }
+    .editInput{
+        width: 100% !important;
+    }
+}
+.editTextColor{
+    color: #7b52b9 !important;
+}
+.editTextColor:hover{
+    cursor: pointer;
+    color: white !important;
+}
